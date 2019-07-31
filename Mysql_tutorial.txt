@@ -1,0 +1,32 @@
+
+use learning;
+select * from gradute;
+
+
+insert into gradute(graduteid,Name,course,branch)values(3,"ritesh","b.tech","EEE");
+
+
+set sql_safe_updates=0;
+update gradute set Name="rajNandini" where Name="raj";
+
+delete from gradute where  graduteid=3;
+
+drop table  if exists gradute;
+use rajnandini;
+truncate table  country;
+select * from country;
+#########################################################################################
+use rajnandini;
+select * from student;
+
+
+ALTER TABLE student
+ADD COLUMN price INT NOT NULL;
+
+
+
+select * from student  group by firstname;
+
+select count(firstname) ,firstname ,max(price) from student group by firstname;
+
+#aggregate functions (COUNT, MAX, MIN, SUM, AVG) 
