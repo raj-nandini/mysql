@@ -1,0 +1,19 @@
+package com.start.java;
+
+public class Constructors {
+	private int eye;
+	private int nose;
+	private int lip;
+    public Constructors() {
+    	System.out.println("sanjiv");
+    }
+    
+	
+	
+	public static void main(String[] args) {
+		Constructors sanjiv=new Constructors();
+		          
+		
+	}
+
+}

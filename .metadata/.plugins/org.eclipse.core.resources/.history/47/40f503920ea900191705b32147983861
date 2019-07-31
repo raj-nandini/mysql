@@ -1,0 +1,19 @@
+package com.start.java;
+
+public class Employee {
+	
+	public int sallary=40000;
+
+}
+
+
+class Programmer extends Employee{
+	
+	public int bonus=10000;
+	
+	public static void main(String[] args) {
+		Programmer sanjiv = new Programmer();
+         System.out.println(sanjiv.sallary);
+         System.out.println(sanjiv.bonus);
+	}
+}

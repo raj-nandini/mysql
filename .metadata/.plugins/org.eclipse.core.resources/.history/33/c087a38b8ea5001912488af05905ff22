@@ -1,0 +1,20 @@
+package com.start.java;
+
+public class Pelindrome {
+	public static void main(String[] args) {
+		int number=2345678;
+		int rem=0;
+		int result=0;
+		while(number!=0) {
+			rem=rem%10;
+			result=result*10+rem;
+			number=number/10;
+		}
+			System.out.println(result);
+	
+			
+		}
+		
+	}
+
+

@@ -1,0 +1,21 @@
+package com.start.java;
+
+public class Sanju {
+	private String eye;
+	private String lip;
+	private String nose;
+	public Sanju() {
+		System.out.println("defult");
+	}
+	public void display() {
+		System.out.println("sanjiv");
+	}
+	
+	public static void main(String[] args) {
+		Sanju falt=new Sanju();
+		
+		
+		
+	}
+
+}

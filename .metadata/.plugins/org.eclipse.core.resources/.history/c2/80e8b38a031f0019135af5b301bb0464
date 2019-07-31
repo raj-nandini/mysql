@@ -1,0 +1,15 @@
+package raj123;
+
+public class nandu extends Thread
+
+{
+	
+	@Override
+      public void run()
+      {
+		int i;
+		Scanner Sc = new Scanner(System.in);
+		System.out.println("Enter a numbe");
+		int number=
+      }
+}

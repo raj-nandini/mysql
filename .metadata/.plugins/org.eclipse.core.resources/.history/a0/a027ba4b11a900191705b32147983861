@@ -1,0 +1,30 @@
+package com.start.java;
+
+public class SiyaramInheritance {
+	
+	
+     public String ritz;
+     
+	public String home;
+	public String bike;
+	public void angry() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class Nandini extends SiyaramInheritance{
+	
+	public static void main(String[] args) {
+		Nandini ss = new Nandini();
+		
+		ss.angry();
+		ss.ritz=null;
+		
+	}
+	
+}
