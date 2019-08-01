@@ -8,6 +8,7 @@ public class MyThread extends Thread
 		for(int i=1;i<=10;i++)
 		{
 			System.out.println("My thread = "+i);
+			System.out.println("My thread = "+i);d
 		}
 	}
 }
