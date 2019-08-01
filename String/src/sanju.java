@@ -33,7 +33,9 @@ public class sanju {
 	System.out.println(name.startsWith("r"));
 	System.out.println(name);
 	System.out.println(name.replace("nandini","sanjiv"));
-	
+
+	System.out.println(name.replace("nandini","sanjiv"));
+System.out.println(name.replace("nandini","sanjiv"));
 	
 	
 	
